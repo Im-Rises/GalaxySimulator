@@ -9,3 +9,45 @@
 </p>
 
 Galaxy Simulator made in C++ using OpenGL and OpenCL (WIP)
+
+
+and the OpenCL lib:
+
+```bash
+brew install opencl
+brew install opencl-headers
+```
+
+## Libraries
+
+glfw:  
+<https://www.glfw.org/docs/latest/>
+
+glm:  
+<https://glm.g-truc.net/0.9.9/index.html>
+
+glad:  
+<https://glad.dav1d.de/>
+
+Dear ImGui:  
+<https://github.com/ocornut/imgui>
+
+OpenGL:  
+<https://www.opengl.org/>
+
+glm:  
+<https://glm.g-truc.net/0.9.9/index.html>
+
+OpenCL:  
+<https://www.khronos.org/blog/your-opencl-developer-experience-just-got-upgraded>  
+<https://github.com/KhronosGroup/OpenCL-SDK>  
+<https://github.com/KhronosGroup/OpenCL-Guide>  
+<https://github.khronos.org/OpenCL-CLHPP/>
+
+## Documentation
+
+learnopengl (OpenGL tutorial):  
+<https://learnopengl.com/In-Practice/2D-Game/Particles>
+
+OpenCL NBody example:  
+<https://github.com/KhronosGroup/OpenCL-SDK/tree/f510201a092363b66969888df49c68721ca2c4fb/samples/extensions/khr/nbody>

@@ -6,3 +6,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 project("TestOpenCL")
 add_subdirectory(${PROJECT_NAME})
+
+#project("GalaxySimulator")
+#add_subdirectory(${PROJECT_NAME})
