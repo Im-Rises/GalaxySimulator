@@ -51,3 +51,6 @@ learnopengl (OpenGL tutorial):
 
 OpenCL NBody example:  
 <https://github.com/KhronosGroup/OpenCL-SDK/tree/f510201a092363b66969888df49c68721ca2c4fb/samples/extensions/khr/nbody>
+
+CMake modules example:  
+<https://godbolt.org>
