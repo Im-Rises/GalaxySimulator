@@ -1,0 +1,18 @@
+{
+  "name" : "galaxysimulator",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "42bb0d9e8d4cf33485afb9ee2229150f79f61a1f",
+  "dependencies" : [ {
+    "name" : "glfw3",
+    "version>=" : "3.3.9"
+  }, {
+    "name" : "glad",
+    "version>=" : "0.1.36"
+  }, {
+    "name" : "imgui",
+    "version>=" : "1.90#4"
+  }, {
+    "name" : "glm",
+    "version>=" : "1.0.0"
+  } ]
+}

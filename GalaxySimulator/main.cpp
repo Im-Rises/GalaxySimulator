@@ -1,6 +1,8 @@
-#include "GalaxySimulatorLauncher.h"
+import MyTest;
 
 int main(int argc, char* argv[]) {
-    GalaxySimulatorLauncher launcher;
-    return launcher.start();
+    MyTest test;
+    return test.test();
+//    GalaxySimulatorLauncher launcher;
+//    return launcher.start();
 }
