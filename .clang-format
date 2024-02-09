@@ -12,13 +12,13 @@ AllowShortBlocksOnASingleLine: Always
 AllowShortFunctionsOnASingleLine: All
 BasedOnStyle: LLVM
 BraceWrapping:
-  AfterClass: false    # TODO: verify
-  AfterControlStatement: Always    # TODO: verify
-  AfterEnum: false    # TODO: verify
-  AfterFunction: false    # TODO: verify
-  AfterNamespace: false    # TODO: verify
-  AfterStruct: false    # TODO: verify
-  AfterUnion: false    # TODO: verify
+  AfterClass: false
+  AfterControlStatement: Always
+  AfterEnum: false
+  AfterFunction: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
   BeforeCatch: true
   BeforeElse: true
   IndentBraces: false
@@ -45,3 +45,4 @@ SpacesInParentheses: false
 SpacesInSquareBrackets: false
 TabWidth: 4
 UseTab: Never
+AllowShortCaseLabelsOnASingleLine: true
