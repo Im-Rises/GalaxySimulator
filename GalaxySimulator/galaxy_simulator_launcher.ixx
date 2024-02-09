@@ -1,8 +1,12 @@
 export module galaxy_simulator_launcher;
 
-import my_api_module_test;
-
 import galaxy_simulation;
+
+import <imgui.h>;
+import <imgui_impl_glfw.h>;
+import <imgui_impl_opengl3.h>;
+import <GLFW/glfw3.h>;
+//import <glad/glad.h>;
 
 export class GalaxySimulatorLauncher {
 public:
