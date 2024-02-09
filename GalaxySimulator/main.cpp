@@ -1,8 +1,6 @@
-import MyTest;
+import galaxy_simulator_launcher;
 
 int main(int argc, char* argv[]) {
-    MyTest test;
-    return test.test();
-//    GalaxySimulatorLauncher launcher;
-//    return launcher.start();
+    GalaxySimulatorLauncher launcher;
+    return launcher.start();
 }

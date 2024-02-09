@@ -1,5 +1,4 @@
-add_executable(${PROJECT_NAME} main.cpp MyTest.ixx
-        GalaxySimulatorLauncher.ixx)
+add_executable(${PROJECT_NAME} main.cpp galaxy_simulator_launcher.ixx)
 
 find_package(glfw3 CONFIG REQUIRED)
 target_link_libraries(${PROJECT_NAME} PRIVATE glfw)

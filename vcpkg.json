@@ -10,7 +10,8 @@
     "version>=" : "0.1.36"
   }, {
     "name" : "imgui",
-    "version>=" : "1.90#4"
+    "version>=" : "1.90#4",
+    "features": ["glfw-binding", "opengl3-binding", "docking-experimental"]
   }, {
     "name" : "glm",
     "version>=" : "1.0.0"
