@@ -6,7 +6,7 @@ import <imgui.h>;
 import <imgui_impl_glfw.h>;
 import <imgui_impl_opengl3.h>;
 import <GLFW/glfw3.h>;
-//import <glad/glad.h>;
+import <glad/glad.h>;
 
 export class GalaxySimulatorLauncher {
 public:
@@ -73,6 +73,10 @@ private:
             return 1;
         glfwMakeContextCurrent(m_window);
         glfwSwapInterval(1); // Enable vsync
+
+        // Initialize OpenGL loader
+        if (gladLoadGLLoader(reinterpret_cast<GLADloadproc>(glfwGetProcAddress)) == 0)
+            return 1;
 
         // Setup Dear ImGui context
         IMGUI_CHECKVERSION();

@@ -1,5 +1,8 @@
 export module galaxy_simulation;
 
+import <glm/glm.hpp>;
+import <vector>;
+
 export class GalaxySimulator {
     public:
     GalaxySimulator() {
@@ -13,13 +16,13 @@ export class GalaxySimulator {
     GalaxySimulator(const GalaxySimulator&&) = delete;
     auto operator=(const GalaxySimulator&&) -> GalaxySimulator& = delete;
 
-//    auto start() -> int {
-//        return 0;
-//    }
+public:
 
 private:
 
 private:
     unsigned int m_particleCount;
     float m_timeStep;
+
+    std::vector<glm::vec3> m_positions;
 };
