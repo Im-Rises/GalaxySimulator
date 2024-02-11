@@ -13,5 +13,8 @@ target_link_libraries(${PROJECT_NAME} PRIVATE OpenGL::GL)
 find_package(imgui CONFIG REQUIRED)
 target_link_libraries(${PROJECT_NAME} PRIVATE imgui::imgui)
 
+find_package(OpenCL REQUIRED)
+target_link_libraries(${PROJECT_NAME} PRIVATE OpenCL::OpenCL)
+
 #find_package(glm CONFIG REQUIRED)
 #target_link_libraries(${PROJECT_NAME} PRIVATE glm)

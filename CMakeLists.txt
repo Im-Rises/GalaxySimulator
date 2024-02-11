@@ -6,3 +6,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 project("GalaxySimulator")
 add_subdirectory(${PROJECT_NAME})
+
+enable_testing()
+add_subdirectory(test)

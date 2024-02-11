@@ -11,9 +11,12 @@
   }, {
     "name" : "imgui",
     "version>=" : "1.90#4",
-    "features": ["glfw-binding", "opengl3-binding", "docking-experimental"]
+    "features" : [ "glfw-binding", "opengl3-binding", "docking-experimental" ]
   }, {
     "name" : "glm",
     "version>=" : "1.0.0"
+  }, {
+    "name" : "opencl",
+    "version>=" : "v2023.02.06#2"
   } ]
 }
